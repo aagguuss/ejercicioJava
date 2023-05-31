@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="ejercicio11(2)">
+  <ClassDiagramComponents>
+    <Class name="revolverDeAgua" package="" visibility="public" xPosition="47.0" yPosition="181.0">
+      <Fields>
+        <Field name="posicionDisparo" type="Integer" visibility="private"/>
+        <Field name="estaCargado" type="bolean" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="llenarRevolverDeAgua" returnType="void" visibility="public"/>
+        <Method name="Mojar" returnType="void" visibility="public"/>
+        <Method name="siguienteChorro" returnType="void" visibility="public"/>
+        <Method name="toString" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Jugador" package="" visibility="public" xPosition="267.0" yPosition="181.0">
+      <Fields>
+        <Field name="ArrayList" type="Object" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

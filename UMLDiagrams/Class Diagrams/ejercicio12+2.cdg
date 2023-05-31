@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="ejercicio12+2">
+  <ClassDiagramComponents>
+    <Class name="electrodomestico" package="" visibility="public" xPosition="1900.0" yPosition="1000.0">
+      <Fields>
+        <Field name="precio" type="int" visibility="protected"/>
+        <Field name="color" type="String" visibility="protected"/>
+        <Field name="consumoEnergetico" type="String" visibility="protected"/>
+        <Field name="peso" type="int" visibility="protected"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="comprabarConsumo" returnType="void" visibility="public"/>
+        <Method name="comprobarColor" returnType="void" visibility="public"/>
+        <Method name="crearElectrodomestico" returnType="void" visibility="public"/>
+        <Method name="precioFinal" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="lavadora" package="" visibility="public" xPosition="100.0" yPosition="1000.0">
+      <Fields>
+        <Field name="capacidadDeCarga" type="int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="electrodomestico" package="" visibility="public" xPosition="34.0" yPosition="38.0">
+      <Fields>
+        <Field name="precio" type="int" visibility="private"/>
+        <Field name="color" type="String" visibility="private"/>
+        <Field name="consumo" type="String" visibility="private"/>
+        <Field name="peso" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="comprobarConsumo" returnType="void" visibility="public"/>
+        <Method name="comprobarColor" returnType="void" visibility="public"/>
+        <Method name="crearElectrodomestico" returnType="void" visibility="public"/>
+        <Method name="PrecioFinal" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="lavdora" package="" visibility="public" xPosition="34.0" yPosition="292.0">
+      <Fields>
+        <Field name="carga" type="int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="crearLavadora" returnType="void" visibility="public"/>
+        <Method name="precioFinal" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="televisor" package="" visibility="public" xPosition="34.0" yPosition="432.0">
+      <Fields>
+        <Field name="resolucion" type="double" visibility="private"/>
+        <Field name="TDA" type="boolean" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="crearTelevisor" returnType="void" visibility="public"/>
+        <Method name="precioFinal" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

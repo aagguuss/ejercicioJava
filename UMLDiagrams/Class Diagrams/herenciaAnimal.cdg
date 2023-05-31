@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="herenciaAnimal">
+  <ClassDiagramComponents>
+    <Class name="Animal" package="" visibility="public" xPosition="51.0" yPosition="206.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="alimento" type="String" visibility="private"/>
+        <Field name="edad" type="int" visibility="private"/>
+        <Field name="Animal" type="Objet" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="mostratAlimentacion" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="caballo" package="" visibility="public" xPosition="306.0" yPosition="88.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="gato" package="" visibility="public" xPosition="412.0" yPosition="281.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="perro" package="" visibility="public" xPosition="319.0" yPosition="520.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="herencia" source="Animal" target="perro" type="Default" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <HasRelation name="herencia" source="Animal" target="caballo" type="Default" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <HasRelation name="herencia" source="Animal" target="gato" type="Default" sourceCardinality="0..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

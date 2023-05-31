@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="herenciaEjercicio12(4)">
+  <ClassDiagramComponents>
+    <Class name="objetoGeometrico" package="" visibility="protected" xPosition="162.0" yPosition="211.0">
+      <Fields>
+        <Field name="Perimetro" type="int" visibility="protected"/>
+        <Field name="Area" type="int" visibility="protected"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="untitledMethod" returnType="void" visibility="public"/>
+        <Method name="untitledMethod1" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="circulo" package="" visibility="public" xPosition="4.0" yPosition="69.0">
+      <Fields>
+        <Field name="Radio" type="int" visibility="private"/>
+        <Field name="diametro" type="int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="rectagulo" package="" visibility="public" xPosition="320.0" yPosition="69.0">
+      <Fields>
+        <Field name="base" type="int" visibility="private"/>
+        <Field name="altura" type="int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Interface name="calculos de formas" package="" visibility="public" xPosition="136.0" yPosition="354.0">
+      <Methods>
+        <Method name="cacularAreaRectangulo" returnType="int" visibility="public"/>
+        <Method name="calculaAreaCirculo" returnType="int" visibility="public"/>
+        <Method name="calcularPerimetroRectangulo" returnType="int" visibility="public"/>
+        <Method name="calcularPerimetroCirculo" returnType="int" visibility="public"/>
+      </Methods>
+    </Interface>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
